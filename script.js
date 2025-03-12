@@ -1,5 +1,6 @@
 // your code here
-function submit()
+let button=document.getElementById("button");
+button.addEventListener("click",()=>
 {
 	//doument.innerHTML="";
 	let name=document.getElementById("name").value;
@@ -22,4 +23,4 @@ h3.innerText=url+"?year="+year;
 	{
 		h3.innerText=url;
 	}
-}
+});
